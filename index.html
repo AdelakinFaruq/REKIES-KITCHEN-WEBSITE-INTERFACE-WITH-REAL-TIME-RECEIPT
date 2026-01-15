@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REKIES KITCHEN</title>
+ <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+  <div class="main">
+    
+    <div class="navbar">
+      <div class="logo"><img src="31e7bf64-8c4a-4bdd-b928-517bcd3ba3a0-md-removebg-preview.png" width="100px" height="50px" alt="Service 1">REKIES KITCHEN</div> 
+
+      <div class="menu">
+        <ul>
+          <li><a href="#home">HoME</a></li>
+          <li><a href="#special">MENU</a></li>
+         <li><a href="#about">ABOUT</a></li>
+         <li><a href="#categories">CATEGORIES</a></li>
+         <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div id="home">
+    <img src="display-fresh-cooked-food-canteen-600nw-2418600949.webp"  alt="Service 1">
+    <div class="image-text">
+     <p  class="highlight-text"> ____ FRESH AND DELICIOUS MEALS___</p>
+    WELCOME TO REKIES KITCHEN
+    <p  class="motto"> Always ready to serve you more better than before..</p>
+  </div>
+  </div>
+ <br>
+  <br>
+  <div id="special">
+  <div class="box">
+    <img src="31e7bf64-8c4a-4bdd-b928-517bcd3ba3a0-md-removebg-preview.png" alt="logo" class="box-logo">
+    <b class="box-title">Daily Fresh Meal</b>
+    Fresh, tasty meals prepared daily with quality ingredients to keep you energized and satisfied.
+  </div>
+
+  <div class="box">
+    <img src="31e7bf64-8c4a-4bdd-b928-517bcd3ba3a0-md-removebg-preview.png" alt="logo" class="box-logo">
+    <b class="box-title">Breakfast Menu</b>
+    Freshly prepared breakfast served daily to give you a healthy and energizing start.
+  </div>
+
+  <div class="box">
+    <img src="31e7bf64-8c4a-4bdd-b928-517bcd3ba3a0-md-removebg-preview.png" alt="logo" class="box-logo">
+    <b class="box-title">Lunch & Dinner</b>
+    Delicious, freshly cooked meals served daily for a satisfying lunch and dinner.
+  </div>
+</div>
+
+<div class="our-services">
+<b> OUR SERVICES</b>
+</div>
+<br>
+<br>
+<div class="food-items">
+  
+  <div class="types">
+    <img src="download-removebg-preview (2).png"  alt="logo" class="food-logo">
+      <b class="food-title">FRESH MEALS</b>
+  </div>
+  <div class="types">
+   <img src="download__1_-removebg-preview (2).png" alt="logo" class="food-logo">
+    <b class="food-title"> Snacks and Beverages</b>
+  </div>
+
+  <div class="types">
+    <img src="download__2_-removebg-preview (1).png" alt="logo" class="food-logo">
+    <b class="food-title">Catering Services</b>
+  </div>
+
+   <div class="types">
+  <img src="4bbb86898009dd62a791f9f1ba746a5b29098ad9-1729412602-removebg-preview.png"  width="240px" hight="250px" alt="logo" class="food-logo">
+    <b class="food-title">Special Menus</b>
+  </div>
+</div>
+
+<div class="order-section">
+  <h3>Order Now</h3>
+
+  <select id="categories">
+    <option value="all">All Categories</option>
+    <option value="meals">Fresh Meals</option>
+    <option value="snacks">Snacks & Beverages</option>
+    <option value="catering">Catering Services</option>
+    <option value="special">Special Menus</option>
+  </select>
+</div>
+
+<input type="text" id="customerName" placeholder="Customer Name" required>
+<input type="tel" id="customerPhone" placeholder="Phone Number" required>
+
+<div class="catalogue">
+  <div class="item meals">Rice & Chicken</div>
+  <div class="item meals">Jollof Rice</div>
+
+  <div class="item snacks">Meat Pie</div>
+  <div class="item snacks">Soft Drinks</div>
+    <div class="item snacks">Cakes</div>
+
+  <div class="item catering">Wedding Catering</div>
+  <div class="item catering">Naming Catering</div>
+
+  <div class="item special">Diet Menu</div>
+  <div class="item special">Special Meu</div>
+</div>
+<br>
+<br>
+<br>
+<div id="receipt" style="display:none;"></div>
+<button onclick="downloadReceipt()">Download Receipt</button>
+<button onclick="shareReceipt()">Share Receipt</button>
+<br>
+<br>
+<div id="about">
+<b> ABOUT US<b>
+</div>
+<br>
+<br>
+<section class="content">
+  <br>
+  <br>
+  <h2 class="heading">Professional  And Trust-Building</h2>
+  <p class="kitchen">
+    At Rekies Kitchen, we believe good food brings people together. Our canteen is dedicated to serving freshly prepared, hygienic, and tasty meals at affordable prices.We carefully select quality ingredients and prepare our dishes daily to ensure great taste and nutrition.
+  </p>
+
+  <h2 class="heading">Warm And Customer-Friendly</h2>
+  <p class="kitchen">
+    Rekies Kitchen is more than just a canteen — it’s a place where comfort meets quality. We take pride in serving fresh meals made with care, using the best ingredients.From local favorites to everyday meals, we are here to make your dining experience enjoyable, affordable, and memorable.
+  </p>
+
+
+  <h2 class="heading">Modern And Business-Style</h2>
+  <p class="kitchen">
+    Rekies Kitchen is a professional food canteen focused on quality, hygiene, and customer satisfaction. We provide well-prepared meals that meet daily nutritional needs while maintaining fast service and affordable pricing.Our commitment is to deliver consistency, cleanliness, and great taste in every meal we serve.
+  </p>
+</section>
+<br>
+<br>
+<div class="about">
+  <b>CONTACT US HERE</b>
+  <select id="contact">
+    <option value="">-- Select Contact --</option>
+    <option value="whatsapp">WhatsApp</option>
+    <option value="facebook">Facebook</option>
+  </select>
+</div>
+
+<br>
+<br>
+<footer class="footer">
+  <p>© 2025 REKIES KITCHEN | Developed by <strong>Mobile Dev</strong></p>
+
+  <div class="social-icons">
+    <a href="https://facebook.com" target="_blank">
+      <img src="download (1).jpeg" alt="Facebook">
+    </a>
+    <a href="https://twitter.com" target="_blank">
+      <img src="download.png" alt="Twitter">
+    </a>
+    <a href="https://instagram.com" target="_blank">
+      <img src="download (2).jpeg" alt="Instagram">
+    </a>
+  </div>
+</footer>
+<script src="index.js"></script>
+</body>
+</html>

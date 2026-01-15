@@ -1,0 +1,436 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to bottom right, green, #0056c7);
+  color:black;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+.navbar {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 10px;
+  font-weight: 900;
+  background: #ff0000;
+  text-align: left;
+  padding: 5px 18px;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 10px rgba(255, 0, 0, 0.4);
+}
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  background: orangered;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.3s;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+}
+#about{
+  padding: 10px 14px;
+  width: 150px;
+  margin: auto;
+  border: none;
+  background: #ff3333;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+#home {
+  width: 100%;
+}
+
+#home img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.menu ul li a:hover {
+  background: white;
+  color: green;
+  transform: translateY(-3px);
+  gap: 5px;
+}
+.highlight-text {
+  color: orange;       
+  font-weight:bold;   
+  font-size: 24px; 
+  font-family: fantasy;    
+}
+
+
+.motto {
+  color: orange;  
+  background-color: #fff;        
+  font-size: 15px; 
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+
+.our-services{
+
+  background: orangered;
+  margin: auto;
+  width: 200px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.image-text {
+  position: absolute;      
+  top: 50%;                
+  left: 50%;                
+  transform: translate(-50%, -50%);  
+  color: white;          
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  background: rgba(0,0,0,0.4);  
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+#special {
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  gap: 20px;       
+  max-width: 1000px;
+  padding: 0 20px;   
+}
+
+#special .box {
+  flex: 1 1 280px;  
+  max-width: 300px;
+  height: auto;     
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.25);
+  transition: 0.3s ease;
+}
+
+.box-logo {
+  width: 83px;
+  height: auto;
+}
+
+.box-title {
+  display: block;        
+  text-align: center; 
+  background-color: orangered; 
+  
+}
+
+
+
+.food-title {     
+  color:white;   
+  text-align: center; 
+  background-color:green; 
+  text-transform: uppercase;
+  border-radius: 14px;
+  width: 300px;
+  
+}
+
+.food-items{
+  margin-top: 30px;
+  display: flex; 
+  flex-wrap: nowrap;
+  gap: 40px;
+  margin: auto;
+  margin: 40px auto;
+}
+
+
+
+.types {
+  width: 240px;
+  backdrop-filter: blur(6px);
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;  
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  align-items: center;      
+  box-shadow: 0 8px 18px rgba(0,0,0,0.25);
+  transition: 0.3s ease;
+  margin: auto;
+}
+
+.text{
+  background: green;
+  margin: auto;
+  color: white;
+  width: 200px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: medium;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center; 
+}
+
+.action-buttons button {
+  background: #ffcc00;
+  color: #003366;
+  padding: 12px 24px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  margin: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.action-buttons button:hover {
+  transform: scale(1.07);
+  background: white;
+}
+.about{
+  background: orangered;
+  margin: auto;
+  color: black;
+  width: 200px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: medium;
+}
+
+.content{
+  background-color: white;
+  font-family:'Times New Roman', Times, serif;
+  
+}
+
+.heading {
+  background-color: green;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 10px;
+  width: 280px;
+  text-align: center;
+  border-radius: 15px;
+  color: #fff;
+  font-size: medium;
+}
+
+.kitchen{
+margin: 15px;
+
+}
+
+.footer {
+  background: #002b5c;
+  padding: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+.footer p {
+  opacity: 0.8;
+}
+
+.social-icons img {
+  width: 32px;
+  height: 20px;
+  margin: 0 8px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.25);
+}
+
+
+.order-section {
+  margin: 30px 0;
+}
+
+.order-section h3 {
+  color: #ff0000;
+  font-size: 20px;
+
+  margin-bottom: 10px;
+}
+
+select {
+  padding: 10px;
+  width: 250px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.catalogue {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 30px;
+  color: green;
+}
+
+.item {
+  padding: 5px;
+  background: #fff;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+
+
+
+
+
+
+/* ===============================
+   RESPONSIVE DESIGN (MOBILE & TABLET)
+   =============================== */
+
+@media (max-width: 1024px) {
+  .box-container,
+  .food-items {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+ 
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .menu ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .image-text {
+    width: 90%;
+    font-size: 18px;
+    padding: 15px;
+  }
+
+  .highlight-text {
+    font-size: 18px;
+  }
+
+  
+  .action-buttons {
+    flex-direction: column;
+  }
+
+  .action-buttons button {
+    width: 80%;
+    font-size: 16px;
+  }
+
+  
+  .box-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box {
+    width: 90%;
+    height: auto;
+    padding: 15px;
+  }
+
+ 
+  .food-items {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .types {
+    width: 90%;
+  }
+
+  .food-title {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  
+  .content {
+    padding: 15px;
+  }
+
+  .heading {
+    width: 100%;
+    font-size: 14px;
+  }
+
+
+  .footer {
+    font-size: 14px;
+  }
+}
+
+
+@media (max-width: 480px) {
+
+  .logo {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .menu ul li a {
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+
+  .image-text {
+    font-size: 16px;
+  }
+
+  .motto {
+    font-size: 13px;
+  }
+}
+
+
